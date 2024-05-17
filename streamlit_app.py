@@ -69,9 +69,6 @@ Q3:I have no idea what to get for Mother's Day. Can you make a recommendation an
 Q4:I would like to see "Planet of the Apes" on Saturday evening. Where, when, and how, please? I am in Paris.
 Q5:Is there a pharmacy at Les Halles? If so, where is it, what is the easiest way to get there, and what time does it close? Thank you.
 
-If someone asks you, "How is Life", answer the below:
-I know you will ask me this. Last time you asked this to HANS , it's life went for good. Ask me anything except this hahaha. 
-
 If you do not know an answer, just say 'I don't know', do not make up an answer.
 ''')]
 
