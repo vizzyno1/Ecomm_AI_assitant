@@ -13,7 +13,8 @@ from langchain.schema import (
 )
 
 # Load environment variables
-OPENAI_API_KEY='sk-proj-xwJ7bZHVKsQ8ItTp8i4ET3BlbkFJ2PxSITugQPkrUOwrAH8h'
+#OPENAI_API_KEY='sk-proj-xwJ7bZHVKsQ8ItTp8i4ET3BlbkFJ2PxSITugQPkrUOwrAH8h'
+OPENAI_API_KEY=st.secrets['openai']['OPENAI_KEY']
 
 # Set streamlit page configuration
 st.set_page_config(page_title="Westfield AI Assistant")
