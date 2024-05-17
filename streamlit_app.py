@@ -5,8 +5,7 @@ from itertools import zip_longest
 import streamlit as st
 from streamlit_chat import message
 from streamlit_extras.app_logo import add_logo
-
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.schema import (
     SystemMessage,
     HumanMessage,
@@ -14,7 +13,8 @@ from langchain.schema import (
 )
 
 # Load environment variables
-load_dotenv()
+
+OPENAI_API_KEY='sk-vijayant-ZRVHJGOmXa3i3mKR71DGT3BlbkFJp0FyMn1zlCkCuioPO6dG'
 
 # Set streamlit page configuration
 st.set_page_config(page_title="Westfield AI Assistant")
@@ -36,7 +36,8 @@ if 'entered_prompt' not in st.session_state:
 # Initialize the ChatOpenAI model
 chat = ChatOpenAI(
     temperature=0.5,
-    model_name="gpt-3.5-turbo"
+    model_name="gpt-3.5-turbo",
+    openai_api_key=OPENAI_API_KEY
 )
 
 
