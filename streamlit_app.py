@@ -13,15 +13,14 @@ from langchain.schema import (
 )
 
 # Load environment variables
-
-OPENAI_API_KEY='sk-vijayant-ZRVHJGOmXa3i3mKR71DGT3BlbkFJp0FyMn1zlCkCuioPO6dG'
+OPENAI_API_KEY='sk-proj-xwJ7bZHVKsQ8ItTp8i4ET3BlbkFJ2PxSITugQPkrUOwrAH8h'
 
 # Set streamlit page configuration
 st.set_page_config(page_title="Westfield AI Assistant")
 st.title("Westfield AI Assistant")
 logo_url = 'urw.jpg'
 st.sidebar.image(logo_url)
-add_logo("https://placekitten.com/100/100")
+
 
 # Initialize session state variables
 if 'generated' not in st.session_state:
@@ -61,6 +60,9 @@ If you are asked about food options , youo can suggest the food menu from the be
 https://www.exki.com/fr/menu
 If you are asked about movies and cinema, you can respond with the below website URL 
 https://www.ugc.fr/cinema.html?id=10
+If you are asked about the Pharmacie, you can respond with the below website URL 
+https://www.pharmacie-forum-halles-paris.com
+
 
 You can also be asked about the following questions, for example:
 Q1:I am looking for a black cashmere turtleneck sweater in my size (38). Can you tell me where to find it near my workplace, which is close to Rue des Jeuneurs, Paris 2, please?
