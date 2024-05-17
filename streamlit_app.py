@@ -137,4 +137,5 @@ if st.session_state['generated']:
 # Add credit
 st.markdown("""
 ---
-Made with 🤖 by [Vijayant Kumar](https://www.linkedin.com/in/vijayantkumarbansal/)""")
+Made with 🤖 by Vijayant Kumar(Valtech) :[LinkedIn](https://www.linkedin.com/in/vijayantkumarbansal/)
+                                 [Github](https://github.com/vizzyno1)""")
